@@ -1,4 +1,4 @@
-# filters.py
+
 class FilterHandler:
     def __init__(self):
         self.next = None
