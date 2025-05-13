@@ -4,7 +4,7 @@ from pet_adoption_plataform import user_account
 from pet_adoption_plataform import clases
 import os
 
-# Instanciando os pets
+
 pet1 = clases.Pet("Bethoven", 7, "male", "brown and white", "big", "dog", shelter_profile.shelter1, False)
 pet2 = clases.Pet("Garfiel", 4, "male", "orange", "medium", "cat", shelter_profile.shelter1, False)
 pet3 = clases.Pet("Snoop", 2, "male", "black and white", "small", "dog", shelter_profile.shelter1, False)
@@ -25,7 +25,7 @@ pets = [
     pet8, pet9, pet10, pet11, pet12, pet13, pet14
 ]
 
-# 🌟 FACADE: Classe que encapsula interações com pets
+
 class PetAdoption:
     def __init__(self, pets, current_user, adoption_module):
         self.pets = pets
@@ -51,7 +51,7 @@ class PetAdoption:
         else:
             self.adoption_module.adoption(pet, pet.shelter)
 
-# Função principal com uso do Facade
+
 def showpets():
     global pets
     os.system("cls")
