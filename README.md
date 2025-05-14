@@ -17,7 +17,7 @@ Antes o adoption.py possuia apenas uma única função grande responsável por t
   
 ## Structural Design Patterns
 ### Facade
-Neste projeto, foi aplicado o padrão de design estrutural **Facade** para simplificar a interação com o sistema de adoção de pets. A classe PetAdoption centraliza funcionalidades como:
+Neste projeto, foi aplicado o padrão de design estrutural **Facade** para simplificar a interação com o sistema de adoção de pets. A classe PetAdoption (em pet_profile.py) centraliza funcionalidades como:
   - Listar pets disponíveis para adoção;
   - Exibir informações detalhadas de um pet;
   - Iniciar o processo de adoção.
