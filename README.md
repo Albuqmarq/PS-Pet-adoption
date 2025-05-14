@@ -17,7 +17,7 @@ Antes esse arquivo possuia apenas uma única função grande responsável por to
   
 ## Structural Design Patterns
 ### Facade
-Neste projeto, foi aplicado o padrão de design estrutural **Facade** para simplificar a interação com o sistema de adoção de pets. A classe PetAdoptionFacade centraliza funcionalidades como:
+Neste projeto, foi aplicado o padrão de design estrutural **Facade** para simplificar a interação com o sistema de adoção de pets. A classe PetAdoption centraliza funcionalidades como:
   - Listar pets disponíveis para adoção;
   - Exibir informações detalhadas de um pet;
   - Iniciar o processo de adoção.
@@ -29,7 +29,7 @@ Neste projeto, foi aplicado o padrão de design estrutural **Facade** para simpl
 
 No sistema de adoção de pets, foi aplicado o padrão comportamental **Chain of Responsibility** para refatorar a lógica de filtros por tipo, cor, tamanho e gênero.
 
-Cada filtro é implementado como uma classe separada, encadeada dinamicamente. Isso permite maior modularidade, reutilização e extensibilidade — facilitando a adição de novos filtros sem alterar o fluxo principal.
+Cada filtro é implementado como uma classe separada (filters.py), encadeada dinamicamente. Isso permite maior modularidade, reutilização e extensibilidade — facilitando a adição de novos filtros sem alterar o fluxo principal.
 
 O sistema agora é mais limpo e flexível, e pode ser reutilizado em outras partes da aplicação como eventos ou tópicos.
 
