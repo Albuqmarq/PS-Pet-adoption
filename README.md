@@ -13,7 +13,7 @@
 
 ## Creational Design Patterns
 ### Builder
-Antes esse arquivo possuia apenas uma única função grande responsável por todo o processo, o que dificultava o entendimento do código e a mudança dele caso necessário. Dessa forma, o **Builder** foi utilizado para facilitar o entendimento e modificação do código caso queira adicionar mais funções.
+Antes o adoption.py possuia apenas uma única função grande responsável por todo o processo, o que dificultava o entendimento do código e a mudança dele caso necessário. Dessa forma, o **Builder** foi utilizado para facilitar o entendimento e modificação do código caso queira adicionar mais funções.
   
 ## Structural Design Patterns
 ### Facade
